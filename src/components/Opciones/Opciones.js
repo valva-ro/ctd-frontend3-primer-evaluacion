@@ -3,14 +3,14 @@ import style from "./Opciones.module.css";
 
 export default class Opciones extends Component {
     render() {
-        const { manejadorOpciones } = this.props;
+        const { handleClick } = this.props;
         return (
           <div className={style.opciones}>
             <div className={style.opcion}>
               <button
                 id="A"
                 className={style.boton}
-                onClick={() => manejadorOpciones("A")}
+                onClick={() => handleClick("A")}
               >
                 A
               </button>
@@ -20,7 +20,7 @@ export default class Opciones extends Component {
               <button
                 id="B"
                 className={style.boton}
-                onClick={() => manejadorOpciones("B")}
+                onClick={() => handleClick("B")}
               >
                 B
               </button>
