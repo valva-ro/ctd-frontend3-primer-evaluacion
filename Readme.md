@@ -1,3 +1,9 @@
+# Resolución
+
+Para visualizar el proyecto funcinando hacé click [acá](https://codesandbox.io/s/ctd-fe3-primer-evaluacion-rshlg).
+
+
+# Consigna y requisitos de aprobación
 **Primer evaluación entregable de Front-end III para C.T.D.**
 
  - Pueden ver el deploy de la aplicación en:
